@@ -13,6 +13,22 @@ button {
     outline: none!important;
 }
 
+.description {
+    font-size: 23px;
+}
+
+.description-2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.description-3 {
+    font-size: 20px;
+}
+
+.taille {
+    width: 100%;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -315,7 +331,7 @@ a:hover {
     margin: 0;
 }
 
-.navbar .nav {
+.navbar .nav { /*Le lien de la page d'accueil disparaît à droite*/
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -326,6 +342,11 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+}
+
+.partenaire {
+    margin-top: 30px;
+    margin-left: 12px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -460,6 +481,10 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+.icone-row {
+    display: flex;
+    justify-content: space-between;
+}
 button {
     outline: none!important;
 }
@@ -677,7 +702,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +761,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white !important;
 }
 
 .portfolio-thumb {
@@ -752,13 +777,9 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
-}
-
 .bold-link {
     font-weight: 900;
+    font-size: 15px;
     text-decoration: underline!important;
 }
 
@@ -813,6 +834,9 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
+.text-white {
+    color: white!important;
+}
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -965,10 +989,10 @@ h4 {
         max-height: 40px;
         width: auto;
     }
-    .nav-invert .navbar-header {
+    /*.nav-invert .navbar-header {
         float: none;
         width: 100%;
-    }
+    }*/
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
