@@ -13,6 +13,8 @@ button {
     outline: none!important;
 }
 
+/* Début des modifications */
+
 .description {
     font-size: 23px;
 }
@@ -34,6 +36,8 @@ button {
     background: rgba(0, 0, 0, 0.555);
     width: 100%;
 }
+
+/* Fin des modification */
 
 a:hover {
     text-decoration: none;
@@ -337,7 +341,7 @@ a:hover {
     margin: 0;
 }
 
-.navbar .nav { /*Le lien de la page d'accueil disparaît à droite*/
+.navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -487,10 +491,14 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+/* Début des modifications */
+
 .icone-row {
     display: flex;
     justify-content: space-between;
 }
+
+/* Fin des modifications */
 
 button {
     outline: none!important;
