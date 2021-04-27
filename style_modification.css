@@ -22,7 +22,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 767px){
+@media screen and (max-width: 767px){
     .icone-row {
         display: flex;
         justify-content: space-between;
