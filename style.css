@@ -13,32 +13,6 @@ button {
     outline: none!important;
 }
 
-/* Début des modifications */
-
-.description {
-    font-size: 23px;
-}
-
-.description-2 {
-    font-size: 20px;
-    font-style: italic;
-}
-
-.description-3 {
-    font-size: 20px;
-}
-
-.taille {
-    width: 100%;
-}
-
-.background {
-    background: rgba(0, 0, 0, 0.555);
-    width: 100%;
-}
-
-/* Fin des modification */
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -490,15 +464,6 @@ nav .caret {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
-
-/* Début des modifications */
-
-.icone-row {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Fin des modifications */
 
 button {
     outline: none!important;
