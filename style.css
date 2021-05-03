@@ -852,13 +852,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -876,10 +876,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -888,8 +884,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -969,10 +963,6 @@ h4 {
         max-height: 40px;
         width: auto;
     }
-    /*.nav-invert .navbar-header {
-        float: none;
-        width: 100%;
-    }*/
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
@@ -1044,3 +1034,36 @@ h4 {
         text-align: center;
     }
 }
+
+/* Début des modifications */
+
+.description {
+    font-size: 23px;
+}
+
+.description-2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.description-3 {
+    font-size: 20px;
+}
+
+.taille {
+    width: 100%;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.555);
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+    .icone-row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Fin des modification */
